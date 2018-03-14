@@ -1,0 +1,23 @@
+Name: Windows
+Description: Windows is an Operating System created by Microsoft
+Versions:
+  - 10
+  - 8.1
+  - 8
+  - 7
+  - Vista
+  - XP
+  - 2000
+Tags:
+  - OS
+Contexts:
+  Global:
+    - Start Menu:
+      Description: Opens the start menu
+      Keys: start
+    - Switch Application:
+      Description: Switch to a different application
+      Keys: alt+tab
+    - Close Application:
+      Description: Close the current application
+      Keys: alt+f4
